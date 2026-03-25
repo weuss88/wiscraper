@@ -1,6 +1,6 @@
 'use client'
 import { useState } from 'react'
-import { MapPin, ShoppingBag, Home, Globe2 } from 'lucide-react'
+import { MapPin, ShoppingBag, Globe2 } from 'lucide-react'
 import clsx from 'clsx'
 import { api } from '@/lib/api'
 import type { JobStatus, Lead, ScraperSource, MapsParams, LeboncoinParams, PapParams } from '@/types'
