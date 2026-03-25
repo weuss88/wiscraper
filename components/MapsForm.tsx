@@ -18,7 +18,7 @@ export default function MapsForm({ pays, onSubmit, loading }: Props) {
   const [secteur, setSecteur] = useState('')
   const [localisation, setLocalisation] = useState('')
   const [nbResults, setNbResults] = useState(20)
-  const [avecTel, setAvecTel] = useState(true)
+  const [avecTel, setAvecTel] = useState(false)
   const [avecSite, setAvecSite] = useState(false)
 
   const handleSubmit = (e: React.FormEvent) => {
